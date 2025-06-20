@@ -1,0 +1,45 @@
+{
+    "app": {
+        "name": "Live Trading App",
+        "version": "1.0.0",
+        "theme": "dark",
+        "language": "en",
+        "auto_save": true,
+        "auto_save_interval": 5
+    },
+    "trading": {
+        "default_lot_size": 0.1,
+        "default_risk_per_trade": 1.0,
+        "default_slippage": 3,
+        "max_open_positions": 10,
+        "max_position_size": 10.0
+    },
+    "risk_management": {
+        "use_stop_loss": true,
+        "use_take_profit": true,
+        "default_risk_reward": 2.0,
+        "use_trailing_stop": false,
+        "trailing_stop_atr": 2.0,
+        "use_break_even": true,
+        "break_even_atr": 1.0,
+        "max_daily_drawdown": 5.0,
+        "max_daily_trades": 50
+    },
+    "mt5": {
+        "path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+        "server": "",
+        "login": "",
+        "password": "",
+        "timeout": 30,
+        "auto_connect": false,
+        "demo_account": true
+    },
+    "charts": {
+        "theme": "dark",
+        "show_volume": true,
+        "show_grid": true,
+        "show_indicators": true,
+        "default_timeframe": "M15",
+        "price_precision": 5
+    }
+}
