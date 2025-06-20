@@ -2,17 +2,13 @@
 🏁 1. Clonar el repositorio (una sola vez)
 Cada colaborador debe clonar el repositorio principal con HTTPS:
 
-bash
-Copiar
-Editar
+
 git clone https://github.com/organizacion/nombre-repo.git
 cd nombre-repo
 🌱 2. Crear una nueva rama por cada funcionalidad
 Nunca trabajes directamente en main o master. Para empezar una nueva implementación o corrección, crea una rama hija:
 
-bash
-Copiar
-Editar
+
 git checkout main       # Asegúrate de partir desde main
 git pull origin main    # Actualiza tu rama base
 git checkout -b feature/nombre-funcionalidad
@@ -38,9 +34,7 @@ Subir automáticamente la rama a GitHub.
 
 O hazlo manualmente:
 
-bash
-Copiar
-Editar
+
 git add .
 git commit -m "Describe brevemente los cambios"
 git push origin feature/nombre-funcionalidad
@@ -64,23 +58,17 @@ Una vez aprobado, se hace merge vía GitHub (no en local), para mantener control
 🔄 8. Mantente actualizado
 Siempre antes de empezar algo nuevo:
 
-bash
-Copiar
-Editar
+
 git checkout main
 git pull origin main
 Si tu rama se queda atrás de main, actualízala:
 
-bash
-Copiar
-Editar
+
 git checkout feature/mi-rama
 git merge main
 O si prefieres un historial más limpio:
 
-bash
-Copiar
-Editar
+
 git rebase main
 🧭 REGLAS GENERALES DEL EQUIPO
 ✅ No trabajar directamente en main.
